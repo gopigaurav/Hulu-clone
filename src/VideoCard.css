@@ -1,0 +1,35 @@
+.videocard{
+ color: white;
+ width: 500px;
+ height: 400px;
+ padding: 20px;
+ transition: transform 400ms;
+}
+.videocard:hover{
+    z-index: 10;
+}
+.videocard >img{
+    height: 300px;
+    object-fit: contain;
+    widows: 500px;
+    border-radius: 20px;
+}
+
+.videocard:hover{
+    transform: scale(1.09);
+}
+
+.videocard > h2{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.videocard > p{
+    align-items: center;
+    display: flex;
+    padding-left: 15px;
+    display: none;
+}
+
+.videocard:hover >p{
+    display: inline-flex;
+} 
